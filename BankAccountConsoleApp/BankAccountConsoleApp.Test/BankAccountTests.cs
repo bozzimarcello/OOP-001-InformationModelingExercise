@@ -15,8 +15,8 @@ namespace BankAccountConsoleApp.Test
             // Act & Assert
             Assert.IsEmpty(account.GetAccountNumber());
             Assert.That(account.GetBalance(), Is.EqualTo(0.0));
-            Assert.IsNull(account.GetOwnerName());
-            Assert.IsNull(account.GetAccountType());
+            Assert.IsEmpty(account.GetOwnerName());
+            Assert.IsEmpty(account.GetAccountType());
         }
 
         [Test]
@@ -29,8 +29,8 @@ namespace BankAccountConsoleApp.Test
             // Act & Assert
             Assert.That(account.GetAccountNumber(), Is.EqualTo("ABC123"));
             Assert.That(account.GetBalance(), Is.EqualTo(initialBalance));
-            Assert.IsNull(account.GetOwnerName());
-            Assert.IsNull(account.GetAccountType());
+            Assert.IsEmpty(account.GetOwnerName());
+            Assert.IsEmpty(account.GetAccountType());
         }
 
         [Test]
