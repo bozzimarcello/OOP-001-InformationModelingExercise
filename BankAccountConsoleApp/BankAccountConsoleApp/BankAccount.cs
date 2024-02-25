@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace BankAccountConsoleApp
 {
-    // Class representing a Bank Account
-    // una classe che rappresenta un conto corrente bancario
+    // Una classe che rappresenta un conto corrente bancario
     public class BankAccount
     {
         //
@@ -23,26 +22,22 @@ namespace BankAccountConsoleApp
         //
         public string GetAccountNumber()
         {
-            // restituisci il numero di conto
-            return string.Empty;
+            // DA FARE: Restituisci il numero di conto
         }
 
         public double GetBalance()
         {
-            // Restituisci il saldo corrente
-            return 0.0;
+            // DA FARE: Restituisci il saldo corrente
         }
 
         public string GetOwnerName()
         {
-            // restituisci il nome del proprietario
-            return string.Empty;
+            // DA FARE: restituisci il nome del proprietario
         }
 
         public string GetAccountType()
         {
-            // restituisci il tipo di conto
-            return string.Empty;
+            // DA FARE: restituisci il tipo di conto
         }
 
         //
@@ -50,17 +45,17 @@ namespace BankAccountConsoleApp
         //
         public BankAccount()
         {
-            // Inizializza le proprietà con valori predefiniti
+            // DA FARE: Inizializza le proprietà con valori predefiniti
         }
 
         public BankAccount(string accountNumber, double initialBalance)
         {
-            // Inizializza le proprietà con i valori forniti
+            // DA FARE: Inizializza le proprietà con i valori forniti
         }
 
         public BankAccount(string accountNumber, double initialBalance, string ownerName, string accountType)
         {
-            // Inizializza le proprietà con tutti i dettagli
+            // DA FARE: Inizializza le proprietà con tutti i dettagli
         }
 
         //
@@ -68,14 +63,12 @@ namespace BankAccountConsoleApp
         //
         public void Deposit(double amount)
         {
-            // Update balance if deposit is valid
-            // Aggiorna il saldo se il deposito è valido, altrimenti solleva una eccezione
+            // DA FARE: Aggiorna il saldo se il deposito è valido, altrimenti solleva una eccezione
         }
 
         public void Withdraw(double amount)
         {
-            // Update balance if withdrawal is valid
-            // Aggiorna il saldo se il prelievo è valido, altrimenti solleva una eccezione
+            // DA FARE: Aggiorna il saldo se il prelievo è valido, altrimenti solleva una eccezione
         }
 
 
