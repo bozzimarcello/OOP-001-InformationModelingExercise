@@ -88,7 +88,7 @@ namespace BankAccountConsoleApp.Test
             account.Withdraw(withdrawalAmount);
 
             // Assert
-            Assert.That(account.GetBalance(), Is.EqualTo(100.0 - withdrawalAmount));
+            Assert.That(account.GetBalance(), Is.EqualTo(initialBalance - withdrawalAmount));
         }
 
         [Test]
